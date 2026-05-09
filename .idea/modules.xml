@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../APIautomation/.idea/APIautomation.iml" filepath="$PROJECT_DIR$/../APIautomation/.idea/APIautomation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../CodingExamples/.idea/CodingExamples.iml" filepath="$PROJECT_DIR$/../CodingExamples/.idea/CodingExamples.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Training/.idea/Training.iml" filepath="$PROJECT_DIR$/../Training/.idea/Training.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ecommerce-automation.iml" filepath="$PROJECT_DIR$/.idea/ecommerce-automation.iml" />
     </modules>

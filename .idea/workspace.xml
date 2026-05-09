@@ -5,19 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72bd431c-a363-4dc5-bdb5-f5e5cd6797dd" name="Changes" comment="changes added.">
-      <change afterPath="$PROJECT_DIR$/pages/product_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_cart.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Training/Unittest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Training/Webtable.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Training/pages/login_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Training/tests/test_login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Training/utilities/waits.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ecommerce-automation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ecommerce-automation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/cart_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/checkout_urAddrInfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/order_overview.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_checkout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_ordered.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_urAddrinfo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/read_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/read_data.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,33 +50,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests for FrmWrkGet.test_request_val.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_cart.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_login.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in tests.executor&quot;: &quot;Run&quot;,
-    &quot;Python.WebsitePrtc1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.api1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.authrization.executor&quot;: &quot;Run&quot;,
-    &quot;Python.login_page.executor&quot;: &quot;Run&quot;,
-    &quot;Python.parameterTest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.postCall.executor&quot;: &quot;Run&quot;,
-    &quot;Python.post_Demo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.product_page.executor&quot;: &quot;Run&quot;,
-    &quot;Python.putCall.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_cart.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for FrmWrkGet.test_request_val.executor": "Run",
+    "Python tests.Python tests for tests.test_ordered.test_ordered.executor": "Run",
+    "Python tests.Python tests in test_cart.py.executor": "Run",
+    "Python tests.Python tests in test_checkout.py.executor": "Run",
+    "Python tests.Python tests in test_login.py.executor": "Run",
+    "Python tests.Python tests in test_parameterization.py.executor": "Run",
+    "Python tests.Python tests in test_urAddrinfo.py.executor": "Run",
+    "Python tests.Python tests in tests.executor": "Run",
+    "Python.LargeNo.executor": "Run",
+    "Python.WebsitePrtc1.executor": "Run",
+    "Python.api1.executor": "Run",
+    "Python.authrization.executor": "Run",
+    "Python.charFreq.executor": "Run",
+    "Python.checkPrime.executor": "Run",
+    "Python.fibonacci.executor": "Run",
+    "Python.login_page.executor": "Run",
+    "Python.palindrome.executor": "Run",
+    "Python.parameterTest.executor": "Run",
+    "Python.postCall.executor": "Run",
+    "Python.post_Demo.executor": "Run",
+    "Python.product_page.executor": "Run",
+    "Python.putCall.executor": "Run",
+    "Python.removeDupl.executor": "Run",
+    "Python.revString.executor": "Run",
+    "Python.swap2Nos.executor": "Run",
+    "Python.test_cart.executor": "Run",
+    "Python.vowelCnt.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "vcs.Git"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "repository"
+    ]
   }
-}</component>
-  <component name="RunManager" selected="Python tests.Python tests for FrmWrkGet.test_request_val">
-    <configuration name="authrization" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="APIautomation" />
+}]]></component>
+  <component name="RunManager" selected="Python tests.Python tests for tests.test_ordered.test_ordered">
+    <configuration name="checkPrime" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CodingExamples" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -89,11 +103,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../APIautomation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../CodingExamples" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../APIautomation/authrization.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../CodingExamples/checkPrime.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -102,8 +116,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="parameterTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="APIautomation" />
+    <configuration name="fibonacci" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CodingExamples" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -111,11 +125,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../APIautomation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../CodingExamples" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../APIautomation/parameterTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../CodingExamples/fibonacci.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -124,72 +138,58 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="post_Demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="APIautomation" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../APIautomation" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../APIautomation/post_Demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="putCall" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="APIautomation" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../APIautomation" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../APIautomation/putCall.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for FrmWrkGet.test_request_val" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="APIautomation" />
+    <configuration name="Python tests for tests.test_ordered.test_ordered" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="ecommerce-automation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../APIautomation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;FrmWrkGet.test_request_val&quot;" />
+      <option name="_new_target" value="&quot;tests.test_ordered.test_ordered&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_checkout.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="ecommerce-automation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_checkout.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_urAddrinfo.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="ecommerce-automation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_urAddrinfo.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for FrmWrkGet.test_request_val" />
-        <item itemvalue="Python.post_Demo" />
-        <item itemvalue="Python.parameterTest" />
-        <item itemvalue="Python.authrization" />
-        <item itemvalue="Python.putCall" />
+        <item itemvalue="Python tests.Python tests for tests.test_ordered.test_ordered" />
+        <item itemvalue="Python tests.Python tests in test_urAddrinfo.py" />
+        <item itemvalue="Python tests.Python tests in test_checkout.py" />
+        <item itemvalue="Python.checkPrime" />
+        <item itemvalue="Python.fibonacci" />
       </list>
     </recent_temporary>
   </component>
@@ -216,12 +216,66 @@
       <option name="project" value="LOCAL" />
       <updated>1775018406533</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changes added.">
+      <option name="closed" value="true" />
+      <created>1776253201140</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1776253201140</updated>
+    </task>
+    <task id="LOCAL-00003" summary="changes added.">
+      <option name="closed" value="true" />
+      <created>1776253225573</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1776253225573</updated>
+    </task>
+    <task id="LOCAL-00004" summary="changes added.">
+      <option name="closed" value="true" />
+      <created>1778070829397</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1778070829397</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="9e51fe98-1237-48bc-b4d2-b878b82290ae" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
+        <entry key="9e51fe98-1237-48bc-b4d2-b878b82290ae">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
